@@ -1,0 +1,71 @@
+<style type="text/css">
+		 body {
+		 	margin: 0;
+		 	padding: 0
+		 }
+		#topbar {
+			width:1000px;
+			height:40px;
+			margin:0 auto;
+			
+		}
+		#bbclogo {
+			margin:8px;
+			width: 100px;
+           float:left;
+		}
+		.topbar_section{
+			float: left;
+			border-left: 1px grey solid;
+			border-right: 1px grey solid;
+			height: 40px;
+		}
+		#signin-logo{
+			float: left;
+
+			width: 30px;
+			margin: 2px 15px;
+
+		}
+		#signtext{
+			font-weight: bold;
+			font-size: 90%;
+			position: relative;
+			top:14px;
+			padding-right: 50px;
+		}
+	
+		.samestyle{
+			font-weight: bold;
+			font-size: 90%;
+            float: left;
+          
+			width: 50px;
+
+			
+		}
+		.style-text{
+			font-weight: bold;
+			font-size: 90%;
+			position: relative;
+			top: 14px;
+			padding:0px 10px 0px 10px; 
+		}
+		#down{
+		position: relative;
+		top: 14px;
+		}
+		#searchbox{
+			background-color: #E4E4E4;
+			border: none;
+			font-weight: bold;
+			font-size: 14px;
+			padding:10px;
+			margin: 5px 0px 5px 5px;
+			float: left;
+		}
+		#sr{
+			margin-top: 3px;
+			height: 38px;
+		}
+	</style>

@@ -8,7 +8,7 @@
 		 	padding: 0
 		 }
 		#topbar {
-			width:1000px;
+			width:1250px;
 			height:40px;
 			margin:0 auto;
 			
@@ -53,7 +53,7 @@
 			font-size: 90%;
 			position: relative;
 			top: 14px;
-			padding:0px 10px 0px 10px; 
+			padding:0px 15px 0px 15px; 
 		}
 		#down{
 		position: relative;
@@ -72,17 +72,116 @@
 			margin-top: 3px;
 			height: 38px;
 		}
+		.clear{
+			clear: both;
+		}
+		.menu-bar-container{
+			background-color: #BB1919;
+			width: 100%;
+			height: 70px;
+		}
+		.menu-bar{
+			width:1230px;
+			
+			margin:0 auto;
+		}
+		h1{
+			padding:0;
+			margin: 0;
+			color: white;
+			font-weight: normal;
+			font-size: 40px;
+			padding-top: 5px;
+		}
+		#local-news{
+color: white;
+border: 1px #BB4545 solid;
+width: 190px;
+float: right;
+height: 20px;
+position: relative;
+top:-20px;
+		}
+		#menu2container{
+			width:1230px;
+			margin:0 auto;
+
+		}
+		#menu2{
+			background-color: #C80005;
+			width: 50px;
+			height: 20px;
+			color: white;
+			padding-right:30px;
+			padding-left: 2px;
+			border-right: 1px yellow solid;
+			float: left;
+
+		}
+		#menu2 a{
+			text-decoration: none;
+			color: white;
+
+		}
+		#menu2 a:hover{
+			text-decoration: underline;
+			color: orange;
+		}
+		.menu-bar-2 {
+			width: 280px;
+			font-size: 20px;
+			float: left;
+
+		}
+		.menu-bar-2 image{
+			width: 30px;
+		}
+		h2 a{
+			text-decoration: none;
+			color: #6987A1;
+			font-size: 30px;
+		}
+		h2 a:hover{
+			color: blue;
+			text-decoration: underline;
+		}
+		#cor{
+			width: 500px;
+			margin: 10px;
+			float: left;
+
+		}
+		#cor2{
+			margin: 10px 10px 0px 10px;
+
+
+		}
+		#linkedof{
+			color: blue;
+		text-decoration:underline; 
+		}
+		.floods{
+			width: 250px;
+		}
+		.widt{
+			width: 200px;
+			float: left;
+		}
+		#last{
+			float: right;
+			margin: 30px;
+			position: relative;
+			top:-165px;
+		}
 	</style>
 </head>
 <body>
 	<div id="topbar">
-			<img id="bbclogo"src="bbc-logo.jpg">
+			<img id="bbclogo"src="images/bbc-logo.jpg">
 			<div class="topbar_section">
-					<img id="signin-logo" src="signinlogo.png">
-					<span id="signtext">Sign in</span>
-		
+					<img id="signin-logo" src="images/signinlogo.png">
+					<span id="signtext"><a  style="text-decoration: none;"href="">Sign in</a></span>
 			</div>
-			
 			<div class=" topbar_section">
 				<span class="style-text">  News</span> 
 			</div>
@@ -104,18 +203,101 @@
 		
 			<div class=" topbar_section">
 				<span class="style-text">  More</span> 
-				<img  id="down"src="down.png">
+				<img  id="down"src="images/down.png">
 			</div>
 			<div class=" topbar_section">
 				<input id="searchbox" type="text" value="Digg">
-				<input type="image" src="search.png"  id="sr">
+				<input type="image" src="images/search.png"  id="sr">
+			</div>
+	</div>
+	<div class="clear"></div>
+	<div class="menu-bar-container">
+		<div class="menu-bar">
+			<h1>
+				NEWS
+			</h1>
+			<div id="local-news">
+				Find local news : 
+				<select>
+					<option>india</option>
+					<option>USA</option>
+					<option>Australia</option>
+				</select>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+		 <div id="menu2container">
+			<div id="menu2"><a href="">Home</a></div><div id="menu2"><a href="">Coronavirus</a></div>
+			<div id="menu2"><a href="">video</a></div><div id="menu2"><a href="">world</a></div>
+			<div id="menu2"><a href="">Asia</a></div><div id="menu2"><a href="">UK</a></div>
+			<div id="menu2"><a href="">Business</a></div><div id="menu2"><a href="">Tech</a></div>
+			<div id="menu2"><a href="">Science</a></div><div id="menu2"><a href="">Stories</a></div>
+			<div id="menu2"><a href="">Arts</a></div><div id="menu2"><a href="">Health</a></div>
+			<div id="menu2"><a href="">WorldNews Tv</a></div><div id="menu2"><a href="">More</a></div>
+			
+   
+			
+	</div>
+	</div>
+	<div class="clear"></div>
+	<div class="menu-bar"> 
+		<div class="menu-bar-2 ">
+		<h2>
+			<a href="">Mumbai orders mandatory covid tests in mandatory areas</a>
+		</h2>
+		<div id="content">
+			Refusing  to be tested in crowded place wil be a criminal offence,city officials say
+		</div>
+	</div>
+	<div id="cor">
+		<img src="images/corona.png">
+	</div>
+</div>
+	<div id="cor2">
+		<img src="images/afk.png">
+	</div>
+
+		
+		<div class="widt">
+			<div >
+			<strong>Australia warned of 'life-threatening' flash floods</strong>
+		</div>
+		<div>
+			Dozens of people are rescued from floodwaters,as torrential rains batter the country east coast
+		</div>
+		<div>
+			<a id="linkedof"href="">Australia</a>
+		</div>
+		</div>
+
+		<div id="last"> 
+			<img  style="width: 200px;height: 130px;"src="images/pak.png">
+			<div class="clear"></div>
+			<div class="widt">
+				<div>
+				<strong>
+				Pakistan's PM Imran Khan tests positive for Covid
+			</strong>
 			</div>
 
+			<div>
+				The 68-year-old is "self-isolating at home", the minister, Faisal Sultan, tweeted.
+			</div>
 
-
-
-
-	</div>
+			<div>
+			<a id="linkedof"href="">Pakistan</a>
+		</div>
+			</div>
+			
+		</div>
+<div class="clear"></div>
+		<div>
+			
+		<strong>Continued........................</strong>
+		</div>
+	
+   
 	
 </body>
 </html>
