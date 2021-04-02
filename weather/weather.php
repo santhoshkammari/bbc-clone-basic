@@ -1,8 +1,6 @@
 
 <?php
- if($_GET['city']){
-     $nameofcity = file_get_contents("http://www.completewebdevelopercourse.com/locations/London/forecasts/latest");
- }
+  //echo $_GET['city']
 ?>
 
 <!doctype html>
